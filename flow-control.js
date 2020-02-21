@@ -26,7 +26,7 @@ function ageChecker(age) {
   }
 }
 
-ageChecker(10)
+console.log(`"ageChecker"::${ageChecker(10)}`)
 
 function ternaryTeenager(age) {
   return age > 13 && age < 19 ? "You are a teenager" : "You are not a teenager"
