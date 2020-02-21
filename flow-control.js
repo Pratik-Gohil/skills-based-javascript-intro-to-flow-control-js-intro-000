@@ -6,8 +6,6 @@ function basicTeenager(age) {
   }
 }
 
-console.log(`"basicTeenager"::${basicTeenager(13)}`)
-
 function teenager(age) {
   if (age > 13 && age < 19) {
     return "You are a teenager!"
@@ -15,8 +13,6 @@ function teenager(age) {
     return "You are not a teenager!"
   }
 }
-
-teenager(20)
 
 function ageChecker(age) {
   if (age > 13 && age < 19) {
@@ -26,13 +22,9 @@ function ageChecker(age) {
   }
 }
 
-console.log(`"ageChecker"::${ageChecker(10)}`)
-
 function ternaryTeenager(age) {
   return age > 13 && age < 19 ? "You are a teenager" : "You are not a teenager!"
 }
-
-ternaryTeenager(12)
 
 function switchAge(age) {
   if (age > 13 && age < 19) {
@@ -47,5 +39,3 @@ function switchAge(age) {
       break
   }
 }
-
-switchAge(19)
