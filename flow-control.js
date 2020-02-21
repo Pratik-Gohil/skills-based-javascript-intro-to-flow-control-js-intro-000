@@ -49,3 +49,5 @@ function switchAge(age) {
       break
   }
 }
+
+switchAge(19)
