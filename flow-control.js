@@ -6,7 +6,7 @@ function basicTeenager(age) {
   }
 }
 
-cosole.log(basicTeenager(20))
+console.log(basicTeenager(20))
 
 function teenager(age) {
   if (age > 13 && age < 19) {
